@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Oswald";
+  height: 2000000px;
+}
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+nav {
+  background: black;
+  padding: 1em;
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2.5rem;
+    font-size: 2rem;
+  }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  span {
+    background: black;
+    color: white;
+    padding: 0.1rem 0.6rem;
+  }
+}
+.project-container {
+  padding: 4rem;
+  font-size:1.2rem;
+  a{
+
+    display:block;
+    text-decoration: none;
+    color:black;
+  }
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: grey;
+  margin-top: auto;
+  button {
+    margin: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem 1.4rem;
+    background: black;
+    color: white;
+    font-size: 1.1rem;
+
+    i {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    span {
+      margin-left: 1rem;
+    }
+  }
+}
