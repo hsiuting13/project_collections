@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* body{
+    
+} */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.generateBtn{
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    cursor:pointer;
+    color:white;
+    background:black;
+    margin-top:100px;
+}
+.result img {
+  width: 900px;
+  height: 900px;
+}
