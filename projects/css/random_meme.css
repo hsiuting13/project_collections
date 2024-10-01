@@ -12,7 +12,9 @@
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
+  gap:100px;
 }
+
 .generateBtn{
     width:100px;
     height:50px;

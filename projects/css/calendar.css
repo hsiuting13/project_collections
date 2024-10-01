@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s ilnear;
+}
+
+body {
+  background: #44a08d;
+}
+a {
+  text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.wrapper {
+  margin: 100px auto;
+  padding: 0 10%;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+h1 {
+  color: #fff;
+  font-size: 60px;
+
+  padding-bottom: 40px;
+  text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calandar-container {
+    display:flex;
+    flex-direction:column;
+  /* display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); */
+
+}
+.time-container {
+  text-align: left;
+  line-height: 1.2;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5px;
+  border-bottom:1px solid black;
+  .time {
+  color: white;
+  font-size: 55px;
+ 
+}
+  a {
+    cursor:pointer;
+    color: #73e6ff;
+  }
+  a:hover {
+    color: #babdba;
+  }
+  a:active {
+    color: #a1a3a1;
+  }
+}
+
+ span.ampm {
+    color: #babdba;
+    font-size: 20px;
+  }
+
+  .days{
+    display:grid;
+  }
+h1:hover {
+  letter-spacing: 1px;
+}
+.month{
+    text-align:left;
+    background:white;
+}
+li:hover{
+  transform:scale(1.03);
+  box-shadow: 0 10px 15px rgba(0,0,0, 0.3);
+}
