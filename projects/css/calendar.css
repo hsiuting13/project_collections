@@ -12,8 +12,8 @@ body {
 a {
   text-decoration: none;
 }
-li{
-    list-style: none;
+ul {
+  list-style: none;
 }
 .wrapper {
   margin: 100px auto;
@@ -25,33 +25,24 @@ li{
 h1 {
   color: #fff;
   font-size: 60px;
-
   padding-bottom: 40px;
   text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
 }
 
-.calandar-container {
-    display:flex;
-    flex-direction:column;
-  /* display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); */
-
-}
+ 
 .time-container {
   text-align: left;
   line-height: 1.2;
   margin: 0 auto;
   width: 100%;
   padding: 5px;
-  border-bottom:1px solid black;
+  border-bottom: 1px solid black;
   .time {
-  color: white;
-  font-size: 55px;
- 
-}
+    color: white;
+    font-size: 55px;
+  }
   a {
-    cursor:pointer;
+    cursor: pointer;
     color: #73e6ff;
   }
   a:hover {
@@ -62,22 +53,59 @@ h1 {
   }
 }
 
- span.ampm {
-    color: #babdba;
-    font-size: 20px;
-  }
+span.ampm {
+  color: #babdba;
+  font-size: 20px;
+}
 
-  .days{
-    display:grid;
-  }
 h1:hover {
   letter-spacing: 1px;
 }
-.month{
-    text-align:left;
-    background:white;
+.current_time{
+  padding: 70px 35px 30px 35px;
+  width: 100%;
+  text-align: left;
+  background: rgba(77, 74, 74, 0.7);
 }
-li:hover{
-  transform:scale(1.03);
-  box-shadow: 0 10px 15px rgba(0,0,0, 0.3);
+.current_time ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+
+  li {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  .arrow-container {
+    cursor: pointer;
+    display: flex;
+  }
+  .year-container{
+    display:flex;
+    gap:20px;
+  }
 }
+
+
+.weekdays, .days{
+  display: grid;
+  /* 7 equal columns */
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgba(77, 74, 74, 0.7);
+  padding:0;
+  margin: 0;
+  color:white;
+  font-size:30px;
+  li{
+    padding:20px 0;
+  }
+}
+.notCurrentMonth{
+  color:grey;
+  opacity:0.9;
+}
+
