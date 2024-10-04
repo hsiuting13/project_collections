@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 400px auto;
+}
+
+.time-display {
+  font-size: 10rem;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.btn {
+  margin-top: 40px;
+  padding: 2rem 5rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color:white;
+}
+.start-btn {
+  background-color: #28813e;
+  opacity:.9;
+}
+.stop-btn{
+background-color: #DD1B1B;
+  opacity:.9;
+}
+
+.reset-btn{
+background-color: #0E44A7;
+  opacity:.9;
+}
