@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Oswald";
-  height: 2000000px;
+  min-height:100vh;
 }
 .wrapper {
   display: flex;
