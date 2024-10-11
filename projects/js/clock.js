@@ -23,4 +23,3 @@ function clock(){
   second.style.transform = "rotate(" + secondsAngle + "deg)";
 }
 setInterval(clock, 1000)
-// clock();
