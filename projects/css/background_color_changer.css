@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background:#E7DEB8;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding: 1.5rem 4rem;
+  cursor: pointer;
+  background-color: rgb(194, 35, 35);
+  border-radius: 0.5em;
+  border-bottom: 0.25em solid rgb(122, 26, 26);
+  transition: 0.1s;
+  box-shadow: 0 2px 3px #ccc;
+  position: relative;
+}
+button:active {
+  background-color: rgb(199, 12, 12);
+  border-bottom-width: 0;
+  top: .2em;
+}
